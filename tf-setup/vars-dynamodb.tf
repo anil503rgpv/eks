@@ -36,7 +36,7 @@ variable "table_name_tf-setup" {
 
 variable "stages" {
   type    = list(string)
-  default = ["tf-setup", "net", "c9net", "cluster","addons", "observ"]
+  default = ["tf-setup", "net", "c9net", "cluster", "addons", "observ"]
 }
 
 variable "stagecount" {
